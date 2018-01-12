@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>领牛股</title>
+    <meta id="viewport" name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/common-mobile.css">
+    <link rel="stylesheet" href="css/lingNG.css">
+    <style>
+        body {
+            max-width: 800px;
+            position: relative;
+        }
+        body .x5_nav {
+            max-width: 800px;
+            position: fixed;
+            margin: 0 auto;
+            height: 53px;
+            left: 50%;
+        }
+        @media (min-width: 1280px) {
+            body{
+                max-width: 800px;
+                margin: 0 auto;
+            }
+            .back{
+                width: 800px;
+                height: 88px;
+                line-height: 88px;
+                font-size: 22px;
+                z-index: 9;
+            }
+            .x5_nav{
+                width: 800px;
+
+            }
+            .contain{
+                margin-top: 88px;
+            }
+            .J-lng{
+                width: 100%;
+                height: 312px;
+                position: absolute;
+            }
+            .lingn{
+                top:230px;
+            }
+            .lingn1{
+                bottom: 495px;
+            }
+            .lingn2{
+                bottom: 1040px;
+            }
+            .button-gif{
+                width: 339px;
+                height: 88px;
+                position: absolute;
+                top: 70%;
+                left: 30%;
+            }
+            .button-gif img{
+                width: 100%;
+                height: 100%;
+            }
+            .button-gif1{
+                width: 339px;
+                height: 88px;
+                position: absolute;
+                top: 46%;
+                left: 30%;
+            }
+            .button-gif1 img{
+                width: 100%;
+                height: 100%;
+            }
+            .button-gif2{
+                width: 339px;
+                height: 88px;
+                position: absolute;
+                top: 15%;
+                left: 30%;
+            }
+            .button-gif2 img{
+                width: 100%;
+                height: 100%;
+            }
+            .window{
+                position: fixed;
+                top: 78%;
+                width: 800px;
+                height: 480px;
+                /* display: none; */
+                background: yellow;
+            }
+            .window .text {
+                width: 480px;
+                height: 80px;
+                line-height: 80px;
+                position: absolute;
+                top:120px;
+                color: white;
+                text-align: center;
+                font-size: 28px;
+            }
+            .window .input{
+                width: 480px;
+                height: 80px;
+                line-height: 80px;
+                position: absolute;
+                top:200px;
+                color: red;
+                background: white;
+                text-align: center;
+                font-size: 28px;
+                margin-left: -234px;
+            }
+            .window .button{
+                width: 146px;
+                height: 68px;
+                line-height: 68px;
+                position: absolute;
+                top: 295px;
+                color: red;
+                background: #F8EF07;
+                text-align: center;
+                font-size: 24px;
+                margin-left: -73px;
+            }
+            .zqsj {
+                position: fixed;
+                top: 78%;
+                width: 480px;
+                height: 286px;
+                font-size: 24px;
+                background: #FE491D;
+                text-align: center;
+                color: white;
+                border-radius: 4px;
+                margin-left: 170px;
+            }
+            .zqsj .yj{
+                margin-top: 100px;
+            }
+            .zqsj .ok{
+                width: 146px;
+                height: 68px;
+                line-height: 68px;
+                margin-top: 150px;
+                position: absolute;
+                margin-left: -86px;
+                top:0;
+                padding: 0;
+            }
+            .xxcy{
+                position: fixed;
+                top: 78%;
+                width: 480px;
+                height: 286px;
+                font-size: 24px;
+                background: #FE491D;
+                text-align: center;
+                color: white;
+                border-radius: 8px;
+                margin-left: 170px;
+            }
+            .xxcy .yj{
+                margin-top: 53px;
+                font-size: 22px;
+                line-height: 40px;
+                padding: 0 20px;
+            }
+            .xxcy .ok{
+                width: 146px;
+                height: 68px;
+                line-height: 68px;
+                margin-top: 150px;
+                position: absolute;
+                margin-left: -86px;
+                top:0;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="back" onclick="window.location.href='indexInfo.html'">&lt首页</div>
+
+<div class="x5_nav">
+    <a href="lingNG.html" class="nav_index">领牛股</a>
+    <a href="ying2018.html" class="nav_music">赢在2018</a>
+    <a href="xueJZ.html" class="nav_video" >学绝招</a>
+    <a href="geGu.html" class="nav_open" >诊个股</a>
+</div>
+
+<div class="contain">
+    <img src="images/mflq.png" alt="">
+</div>
+<div class="btnLin button-gif"><img src="images/dianji.gif" alt=""></div>
+<div class="btnLin button-gif1"><img src="images/dianji.gif" alt=""></div>
+<div class="btnLin button-gif2"><img src="images/dianji.gif" alt=""></div>
+<div class="J-lng lingn"></div>
+<div class="J-lng lingn1"></div>
+<div class="J-lng lingn2"></div>
+
+<div class="window">
+    <img src="images/window800.png" alt="">
+    <div class="text">请输入手机号码</div>
+    <input id="inputNum" class="input" type="text">
+    <div id="submit" class="button">确认</div>
+</div>
+<div class="xxcy">
+    <div class="yj">感谢您的参与！客服人员将会在第一时间与您联系。</div>
+    <div class="ok">好的</div>
+</div>
+<div class="zqsj">
+    <div class="yj">请输入正确的手机号码！</div>
+    <div class="ok">好的</div>
+</div>
+
+<script src="lib/zepto.min.js"></script>
+<script src="lib/initFont.js"></script>
+<script>
+    $('.J-lng').click(function () {
+        $('.window').css('display', 'block');
+    }); $('.btnLin').click(function () {
+        $('.window').css('display', 'block');
+    });
+    $('#submit').click(function () {
+        var phoneNumber = $('#inputNum').val();
+        var regExp = /^(0|86|17951)?(13[0-9]|15[012356789]|17[678]|18[0-9]|14[57])[0-9]{8}$/;
+        var numberResult = regExp.exec(phoneNumber);
+        if (!!numberResult) {
+            send(numberResult[0]);
+            $('#inputNum').val('');
+            $('.window').css('display', 'none');
+            $('.xxcy').css('display','block');
+            $('.xxcy .ok').click(function () {
+                $('.xxcy').css('display','none');
+            })
+        } else {
+            $('.zqsj').css('display','block');
+            $('.zqsj .ok').click(function () {
+                $('.zqsj').css('display','none');
+            })
+        }
+
+        function send(numberResult) {
+            $.ajax({
+                type: 'post',
+                url: "http://oas.cctvjy.cn/mobile/sjvip.asp",
+                data: {id: numberResult, lx: 'niuGu'},
+                contentType: "application/x-www-form-urlencoded; charset=utf-8",
+                success: function (result) {
+
+                }
+            })
+        }
+    })
+</script>
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?cec4bc1d94c919e79ea77ea62778bf41";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+
+    var $x5_nav = $('.x5_nav');
+    var width = $x5_nav.width() / 2;
+    $x5_nav.css('margin-left', -width);
+</script>
+</body>
+</html>

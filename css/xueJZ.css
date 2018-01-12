@@ -1,0 +1,187 @@
+
+body {
+    margin: 0;
+    position: relative;
+}
+.back{
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    background: #E55151;
+    position: fixed;
+    top: 0;
+    color: white;
+    padding-left: 0.2rem;
+    font-size: 0.36rem;
+    z-index: 9;
+}
+.contain {
+    width: 100%;
+    margin-top: 0.88rem;
+    margin-bottom: 2rem;
+}
+
+.contain img {
+    width: 100%;
+    height: 100%;
+}
+.xueJz1{
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    top:14rem;
+}
+.xueJz1 img{
+    width: 100%;
+    height: 5rem;
+}
+.xueJz2 {
+    position: absolute;
+    width: 100%;
+    top:13rem;
+    text-align: center;
+}
+.xueJz2 img{
+    width: 3.2rem;
+    height: 0.8rem;
+}
+.xueJz3{
+    top:2.4rem;
+}
+.bott{
+    position: fixed;
+    bottom: 1.3rem;
+    width: 100%;
+    height: 1.3rem;
+}
+.bott img{
+    width: 100%;
+    height: 100%;
+}
+
+.J-lng {
+    width: 100%;
+    height: 4rem;
+    bottom: 7rem;
+    position: absolute;
+}
+.j-lng1{
+    top:1rem;
+}
+
+.window {
+    position: fixed;
+    width: 100%;
+    height: 6rem;
+    top: 24%;
+    margin-top: -2rem;
+    display: none;
+}
+
+.window img {
+    width: 100%;
+    height: 100%;
+}
+
+.window .text {
+    width: 64%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 50%;
+    margin-left: -32%;
+    color: white;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.window .input {
+    width: 64%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background: white;
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    margin-left: -32%;
+    border-radius: 0.1rem;
+    color: red;
+    text-align: center;
+    font-size: 0.4rem;
+}
+
+.window .button {
+    width: 30%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background: #F8EF07;
+    position: absolute;
+    top: 3.5rem;
+    left: 50%;
+    margin-left: -15%;
+    border-radius: 0.1rem;
+    color: red;
+    text-align: center;
+    font-size: 0.4rem;
+}
+
+.xxcy {
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    top: 25%;
+    margin-top: -2rem;
+    background: #FE491D;
+    text-align: center;
+    color: white;
+    font-size: 0.36rem;
+    display: none;
+    border: 1px solid #E55151;
+    border-radius: 0.3rem;
+}
+.xxcy .yj{
+    margin-top: 0.4rem;
+    line-height: 0.6rem;
+    padding: 0 0.6rem;
+    text-align: justify;
+}
+.xxcy .ok {
+    padding: 0.1rem;
+    color: white;
+    width: 1rem;
+    border: 0.01rem solid white;
+    position: absolute;
+    left: 50%;
+    border-radius: 0.04rem;
+    top:64%;
+    margin-left: -0.5rem;
+}
+.zqsj {
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    top: 20%;
+    margin-top: -2rem;
+    background: #FE491D;
+    text-align: center;
+    color: white;
+    font-size: 0.36rem;
+    display: none;
+    border: 1px solid #E55151;
+    border-radius: 0.3rem;
+}
+.zqsj .yj{
+    margin-top: 1rem;
+}
+.zqsj .ok {
+    padding: 0.1rem;
+    color: white;
+    width: 1rem;
+    border: 0.01rem solid white;
+    position: absolute;
+    left: 50%;
+    border-radius: 0.04rem;
+    top:50%;
+    margin-left: -0.5rem;
+}

@@ -1,0 +1,240 @@
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+.back {
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    background: #E55151;
+    position: fixed;
+    top: 0;
+    color: white;
+    padding-left: 0.2rem;
+    font-size: 0.36rem;
+    z-index: 9;
+}
+
+.bott {
+    position: fixed;
+    bottom: 1rem;
+    width: 100%;
+    height: 1.7rem;
+    background: black;
+}
+
+.bottom_input_label {
+    font-weight: 800;
+    color: yellow;
+    float: left;
+    width: 22%;
+    margin-top: 0.64rem;
+    margin-left: 0.30rem;
+}
+.bottom_input_div2{width:50%;float: left}
+.bottom_input_div2 input{padding-left: 0.1rem;font-size: 0.22rem}
+.stockname{width:100%;height: 0.5rem;margin-top:0.18rem;}
+.stockname1{width:100%;height: 0.5rem;margin-top:0.18rem;}
+.bottom_input_btn{width:20%;float:left;margin-top:0.6rem;height: 0.6rem;margin-left: 0.14rem;}
+.bottom_input_btn img{
+    width: 100%;
+    height: 100%;
+}
+.contain {
+    width: 100%;
+    margin-top: -0.12rem;
+}
+
+.zhenD {
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    top: 2rem;
+    text-align: center;
+}
+
+.zhenD img {
+    width: 5rem;
+    height: 5rem;
+    animation: amt 9s infinite linear;
+}
+
+.zhenD3 {
+    position: absolute;
+    width: 100%;
+    height: 7rem;
+    top: 3.7rem;
+    text-align: center;
+}
+
+.zhenD3 img {
+    width: 5rem;
+    height: 5rem;
+}
+
+@-webkit-keyframes amt {
+    0% {
+        -webkit-transform: translateZ(0) rotate(0deg);
+        transform: translateZ(0) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateZ(0) rotate(360deg);
+        transform: translateZ(0) rotate(360deg);
+    }
+}
+
+@keyframes amt {
+    0% {
+        -webkit-transform: translateZ(0) rotate(0deg);
+        transform: translateZ(0) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translateZ(0) rotate(360deg);
+        transform: translateZ(0) rotate(360deg);
+    }
+}
+
+.contain img {
+    width: 100%;
+    height: 100%;
+}
+
+.J-lng {
+    width: 100%;
+    height: 4rem;
+    position: absolute;
+}
+
+.J-lng-01 {
+    bottom: 3rem;
+
+}
+
+.J-lng-02 {
+    bottom: 0rem;
+
+}
+
+.window {
+    position: fixed;
+    width: 100%;
+    height: 6rem;
+    top: 24%;
+    margin-top: -2rem;
+    display: none;
+}
+
+.window img {
+    width: 100%;
+    height: 100%;
+}
+
+.window .text {
+    width: 64%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 50%;
+    margin-left: -32%;
+    color: white;
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.window .input {
+    width: 64%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background: white;
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    margin-left: -32%;
+    border-radius: 0.1rem;
+    color: red;
+    text-align: center;
+    font-size: 0.4rem;
+}
+
+.window .button {
+    width: 30%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background: #F8EF07;
+    position: absolute;
+    top: 3.5rem;
+    left: 50%;
+    margin-left: -15%;
+    border-radius: 0.1rem;
+    color: red;
+    text-align: center;
+    font-size: 0.4rem;
+}
+
+.xxcy {
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    top: 47%;
+    margin-top: -2rem;
+    background: #FE491D;
+    text-align: center;
+    color: white;
+    font-size: 0.36rem;
+    display: none;
+    border: 1px solid #E55151;
+    border-radius: 0.3rem;
+}
+
+.xxcy .yj {
+    margin-top: 0.4rem;
+    line-height: 0.6rem;
+    padding: 0 0.6rem;
+    text-align: justify;
+}
+
+.xxcy .ok {
+    padding: 0.1rem;
+    color: white;
+    width: 1rem;
+    border: 0.01rem solid white;
+    position: absolute;
+    left: 50%;
+    border-radius: 0.04rem;
+    top: 64%;
+    margin-left: -0.5rem;
+}
+
+.zqsj {
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    top: 40%;
+    margin-top: -2rem;
+    background: #FE491D;
+    text-align: center;
+    color: white;
+    font-size: 0.36rem;
+    display: none;
+    border: 1px solid #E55151;
+    border-radius: 0.3rem;
+}
+
+.zqsj .yj {
+    margin-top: 1rem;
+}
+
+.zqsj .ok {
+    padding: 0.1rem;
+    color: white;
+    width: 1rem;
+    border: 0.01rem solid white;
+    position: absolute;
+    left: 50%;
+    border-radius: 0.04rem;
+    top: 50%;
+    margin-left: -0.5rem;
+}
